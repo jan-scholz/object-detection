@@ -11,3 +11,12 @@ A tensorflow-based application that detects objects in images.
 docker build -t object-detection .
 ```
 
+## Troubleshooting
+
+To log into docker container:
+
+```
+docker run -it object-detection /bin/bash
+```
+
+
